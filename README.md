@@ -1,4 +1,4 @@
-<h1 align="center"><b> THE X-Troid Public Bot  </b></h1>
+<h1 align="center"><b> THE X-Troid Rebuilded Public Bot  </b></h1>
 
 ![logo align= "center"](https://telegra.ph/file/1bc110e8d5157b2def33b.jpg)
 
