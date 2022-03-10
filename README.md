@@ -1,6 +1,6 @@
 <h1 align="center"><b> THE X-Troid Public Bot  </b></h1>
 
-![logo](https://telegra.ph/file/e115d1bda25210ddba9ec.jpg)
+![logo align= "center"](https://telegra.ph/file/e115d1bda25210ddba9ec.jpg)
 
 <p align="center">
     Project of X-Troid - Makes it easy and fun to use Whatsapp. Also first Sinhala userbot for Whatsapp.
