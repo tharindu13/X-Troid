@@ -6,7 +6,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Language = require('../language');
 const Lang = Language.getString('_xtroid');
-const logo = fs.readFileSync('./media/logo/free.png')  
+const logo = fs.readFileSync('./media/logo/tgm.jpg')  
 const pro = `
 👑 *New Items* 👑
 ────────────────
