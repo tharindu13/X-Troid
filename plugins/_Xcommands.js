@@ -32,7 +32,7 @@ const pro = `
 
 if (Config.WORKTYPE == 'private') {
 
-    XTroid.addCMD({pattern: 'x ?(.*)', fromMe: true, dontAddCMDList: true}, (async (message, match) => {
+    XTroid.addCMD({pattern: 'menu ?(.*)', fromMe: true, dontAddCMDList: true}, (async (message, match) => {
     var CMD_HELP = '';
     if (match[1] === '') {
         XTroid.commands.map(
@@ -100,7 +100,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    XTroid.addCMD({pattern: 'x ?(.*)', fromMe: false, dontAddCMDList: true}, (async (message, match) => {
+    XTroid.addCMD({pattern: 'menu ?(.*)', fromMe: false, dontAddCMDList: true}, (async (message, match) => {
     var CMD_HELP = '';
     if (match[1] === '') {
         XTroid.commands.map(
