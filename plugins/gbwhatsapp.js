@@ -18,7 +18,7 @@ if (Config.WORKTYPE == 'private') {
 else if (Config.WORKTYPE == 'public') {
 
    XTroid.addCMD({pattern: 'gbwa', fromMe: false}, (async (message, match) => {
-      await message.sendMessage('┏━━━━━━━━━━━━━━━━━━━\n┃〘 ☣️ *GB WHATSAPP MOD* ☣️ 〙\n┗━━━━━━━━━━━━━━━━━━━\n');
+      await message.sendMessage('┏━━━━━━━━━━━━━━━━━━━\n┃〘 ❄️🔥 *GB WHATSAPP MOD* 🔥❄️ 〙\n┗━━━━━━━━━━━━━━━━━━━\n');
       await message.sendMessage('\n*https://www.whatsappmods.net/2018/08/update-gbwhatsapp.html*\n');
    }));
    
