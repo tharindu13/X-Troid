@@ -153,7 +153,7 @@
         "EMOJI": {
             "description": "This is Menu emoji you can cange it here: මෙනුවේ විධාන ඉමොජිය වෙනස් කිරීමට",
             "required": false,
-            "value": "🔮"
+            "value": "❄️"
         },
         "DEMOJI": {
             "description": "This is Menu desc emoji you can cange it here: මෙනුවේ දෙවෙනි ඉමොජිය වෙනස් කිරීමට",
@@ -163,7 +163,7 @@
         "CP": {
             "description": "This is Menu Caption of send media you can cange it here: bot ගෙන් send වෙන photo/video වල තිබිය යුතු නම වෙනස් කිරීමට",
             "required": false,
-            "value": "•--» 𝔁𝓉ŕ𝔬เⒹ «--•"
+            "value": "•--»X-Troid New Edition «--•"
         },
         "ALIVEIMG": {
             "description": "Customizable Alive Image!: ALIVE පණිවිඩයේ පින්තුරය  ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
@@ -173,12 +173,12 @@
         "SONDOWNMSG": {
             "description": "Song downloading message;",
             "required": true,
-            "value": "╭┄┄┉♫♪♫┉┄┄╮\n*Searching song➧*\n╰┄┄┉♫♪♫┉┄┄╯"
+            "value": "*Searching song* "
         },
         "SONGUPMSG": {
             "description": "Song Uploading message;",
             "required": true,
-            "value": ".ılı.—— uploading ——.ılı.\n   ⏫|◁      II         ▷|⏫"
+            "value": ".*Uploading your song* "
         }
 
     },
