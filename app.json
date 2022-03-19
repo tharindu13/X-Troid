@@ -1,7 +1,7 @@
 {
     "name": "Xtroid Re Build",
     "description": "Coded By Lasiya edit by Thinuwa",
-    "logo": "https://telegra.ph/file/e115d1bda25210ddba9ec.jpg",
+    "logo": "https://telegra.ph/file/74177b42dd783b0451298.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai"],
     "repository": "https://github.com/darkalpha2003/X-Troid",
     "website":   "lasiya.ml",
@@ -168,7 +168,7 @@
         "ALIVEIMG": {
             "description": "Customizable Alive Image!: ALIVE පණිවිඩයේ පින්තුරය  ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
             "required": false,
-            "value": "https://telegra.ph/file/a143b34753c8434058e87.jpg"
+            "value": "https://telegra.ph/file/74177b42dd783b0451298.jpg"
         },
         "SONDOWNMSG": {
             "description": "Song downloading message;",
