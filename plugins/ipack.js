@@ -320,7 +320,7 @@ else if (Config.WORKTYPE == 'public') {
     
     XTroid.addCMD({pattern: 'bot', fromMe: false, deleteCommand: false,desc:'Get info aboout bot'}, (async (message, match) => {
 var lasiyasimg = await axios.get(`https://telegra.ph/file/3debad40def3c1e31e021.jpg`, { responseType: 'arraybuffer' })
-      await message.client.sendMessage(message.jid, Buffer.from(lasiyasimg.data), MessageType.image, {mimetype: Mimetype.png, caption: '                  *♔ X-Troid new editon  ♔* \n\n\n❍HOSTED ➤ AWD\n❍ VERSION  ➤ 𝐕'+Config.VERSION+'\n❍ BRANCH   ➤ *'+Config.BRANCH+'*\n❍  ABOUT    ➤ 𝙡𝙖𝙨𝙞𝙮𝙖.𝙢𝙡\n❍ NEW OWNER   ➤ t.me/kingdarkalpha\n❍ MODDERS ➤┓\n                        ┣ @LASITH\n                        ┣ @DARKALPHA\n                        ┣ @ACHIYA\n❍ MAIN GROUP ➤ t.me/danuma01\n\n❍ TUTE ➤ https://cutt.ly/hmtJU0u\n⊱ ──────    ♔    ────── ⊰\n'})
+      await message.client.sendMessage(message.jid, Buffer.from(lasiyasimg.data), MessageType.image, {mimetype: Mimetype.png, caption: '             *♔ X-Troid new editon  ♔* \n\n\n❍ HOSTED ➤ AWD\n❍ VERSION  ➤ 𝐕'+Config.VERSION+'\n❍ BRANCH   ➤ *'+Config.BRANCH+'*\n❍  ABOUT    ➤ t.me/tgmarcade\n❍ NEW OWNER   ➤ t.me/kingdarkalpha\n❍ MODDERS ➤┓\n                        ┣ @LASITH\n                        ┣ @DARKALPHA\n                        ┣ @ACHIYA\n❍ MAIN GROUP ➤ t.me/danuma01\n\n❍ TUTE ➤ https://cutt.ly/hmtJU0u\n⊱ ──────    ♔    ────── ⊰\n'})
     }));
 
 
