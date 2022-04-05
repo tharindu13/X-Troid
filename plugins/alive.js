@@ -7,5 +7,5 @@ let FM = Config.WORKTYPE == 'public' ? false : true
 XTroid.addCMD({pattern: 'alive', fromMe: FM, deleteCommand: true,}, (async (message, match) => {
 
 var lasi = await axios.get(`${Config.ALIVEIMG}`, { responseType: 'arraybuffer' })
-await message.client.sendMessage(message.jid, Buffer.from(lasi.data), MessageType.image, {mimetype: Mimetype.png, caption: '            '+Config.ALIVETEXT+'\n          *Powered by X-Troid* '})
+await message.client.sendMessage(message.jid, Buffer.from(lasi.data), MessageType.image, {mimetype: Mimetype.png, caption: '            '+Config.ALIVETEXT+'\n *x-ᴛʀᴏɪᴅ ɴᴇᴡ ᴇᴅɪᴛᴏɪɴ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟᴘʜᴀ ᴛᴇᴀᴍ*'})
     }));
