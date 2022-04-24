@@ -559,7 +559,7 @@ if (config.WORKTYPE == 'private') {
             mesaj += '\n\n'+' *[🧿]* '+ '*' + video.title + '*'+' \n *🧬❯-* ' + video.url + '\n'
         });
 
-        await message.client.sendMessage(message.jid,mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,'╔══════════════╗\n  *🐺 X-TROID NEW EDITION 🐺* \n    *🧿 Youtube search 🧿 enging*\n╚══════════════╝'+mesaj,MessageType.text);
         await reply.delete();
     }));
 
@@ -1062,7 +1062,7 @@ else if (config.WORKTYPE == 'public') {
             mesaj += '\n\n'+' *[🧿]* '+ '*' + video.title + '*'+' \n *🧬❯-* ' + video.url + '\n'
         });
 
-        await message.client.sendMessage(message.jid,mesaj,MessageType.text);
+        await message.client.sendMessage(message.jid,'╔══════════════╗\n  *🐺 X-TROID NEW EDITION 🐺* \n    *🧿 Youtube search 🧿 enging*\n╚══════════════╝'+mesaj,MessageType.text);
         await reply.delete();
     }));
 
