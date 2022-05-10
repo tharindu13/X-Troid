@@ -16,7 +16,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-XTroid.addCMD({pattern: 'ban ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.BAN_DESC}, (async (message, match) => {  
+XTroid.addCMD({pattern: 'ban ?(.*)', fromMe: false, onlyGroup: true, desc: Lang.BAN_DESC}, (async (message, match) => {  
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
@@ -54,7 +54,7 @@ XTroid.addCMD({pattern: 'ban ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.B
     }
 }));
 
-XTroid.addCMD({pattern: 'add(?: |$)(.*)', fromMe: true, onlyGroup: true, desc: Lang.ADD_DESC}, (async (message, match) => {  
+XTroid.addCMD({pattern: 'add(?: |$)(.*)', fromMe: false, onlyGroup: true, desc: Lang.ADD_DESC}, (async (message, match) => {  
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
@@ -88,7 +88,7 @@ XTroid.addCMD({pattern: 'add(?: |$)(.*)', fromMe: true, onlyGroup: true, desc: L
     }
 }));
 
-XTroid.addCMD({pattern: 'promote ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.PROMOTE_DESC}, (async (message, match) => {    
+XTroid.addCMD({pattern: 'promote ?(.*)', fromMe: false, onlyGroup: true, desc: Lang.PROMOTE_DESC}, (async (message, match) => {    
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
@@ -146,7 +146,7 @@ XTroid.addCMD({pattern: 'promote ?(.*)', fromMe: true, onlyGroup: true, desc: La
     }
 }));
 
-XTroid.addCMD({pattern: 'demote ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.DEMOTE_DESC}, (async (message, match) => {    
+XTroid.addCMD({pattern: 'demote ?(.*)', fromMe: false, onlyGroup: true, desc: Lang.DEMOTE_DESC}, (async (message, match) => {    
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN);
 
@@ -204,7 +204,7 @@ XTroid.addCMD({pattern: 'demote ?(.*)', fromMe: true, onlyGroup: true, desc: Lan
     }
 }));
 
-XTroid.addCMD({pattern: 'mute ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.MUTE_DESC}, (async (message, match) => {    
+XTroid.addCMD({pattern: 'mute ?(.*)', fromMe: false, onlyGroup: true, desc: Lang.MUTE_DESC}, (async (message, match) => {    
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
@@ -1560,7 +1560,7 @@ XTroid.addCMD({pattern: 'mute ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.
     }
 }));
 
-XTroid.addCMD({pattern: 'unmute ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.UNMUTE_DESC}, (async (message, match) => {    
+XTroid.addCMD({pattern: 'unmute ?(.*)', fromMe: false, onlyGroup: true, desc: Lang.UNMUTE_DESC}, (async (message, match) => {    
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
@@ -1574,7 +1574,7 @@ XTroid.addCMD({pattern: 'unmute ?(.*)', fromMe: true, onlyGroup: true, desc: Lan
     }
 }));
 
-XTroid.addCMD({pattern: 'invite ?(.*)', fromMe: true, onlyGroup: true, desc: Lang.INVITE_DESC}, (async (message, match) => {    
+XTroid.addCMD({pattern: 'invite ?(.*)', fromMe: false, onlyGroup: true, desc: Lang.INVITE_DESC}, (async (message, match) => {    
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN, MessageType.text);
     var invite = await message.client.groupInviteCode(message.jid);
@@ -1582,7 +1582,7 @@ XTroid.addCMD({pattern: 'invite ?(.*)', fromMe: true, onlyGroup: true, desc: Lan
 }));
 
 
-XTroid.addCMD({pattern: 'gs ?(.*)', onlyGroup: true, fromMe: true,desc: GSD}, (async (message, match) => {
+XTroid.addCMD({pattern: 'gs ?(.*)', onlyGroup: false, fromMe: true,desc: GSD}, (async (message, match) => {
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_SUB);
